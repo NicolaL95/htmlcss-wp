@@ -41,6 +41,10 @@ body {
     font-size: 2rem;
 }
 
+.desc_dett{
+    font-weight: bolder;
+}
+
 .centercontent{
     height: 450px;
      margin-bottom: 2rem;
@@ -71,6 +75,7 @@ body {
      font-family: 'Montserrat', sans-serif;
     color: #B0B0B0;
     font-size: 1.5rem;
+    font-weight: bolder;
 }
 
 .main_header {
