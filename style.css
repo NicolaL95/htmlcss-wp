@@ -42,14 +42,14 @@ body {
     font-size: 2rem;
 }
 
-.centercontent:not(.desc_image){
+.centercontent{
     height: 450px;
      margin-bottom: 2rem;
      background-position: center;
       background-image: url("./img/banner.jpg");
       border-radius:10px;
       background-blend-mode: multiply;
-      background-color: gray;
+      background-color: #d0c3c3;
 }
 
 
@@ -114,22 +114,22 @@ body {
 
 }
 
-.maincontent_background,.sidebar_1,.sidebar_2{
+.maincontent_background, .sidebar_1, .sidebar_2{
     background-position: center;
     background-size: cover;
      background-blend-mode: multiply;
-      background-color: gray;
+      background-color: #d0c3c3;
     border-radius:10px;
 
 }
 
-.maincontent > h3{
+.maincontent > h3, .sidebar_1 > h3, .sidebar_2 > h3{
     margin: 10px 0; 
     font-family: 'Montserrat', sans-serif;
     font-weight: 1000;
 }
 
-.maincontent > p{
+.maincontent > p,.sidebar_1 > p,.sidebar_2 > p{
     color: #B0B0B0;
     font-family: 'Montserrat', sans-serif;
     font-weight:1000;
@@ -137,13 +137,18 @@ body {
 
 .sidebar_1, .maincontent {
     float: left;
-    padding: 1rem;
     height: 350px;
+}
+
+.sidebar_1{
+     background-image: url(./img/img-1.jpg);
+     height: 150px;
+
 }
 .sidebar_2{
      float: right;
-    padding: 1rem;
-    height: 350px;
+  background-image: url(./img/img-3.jpg);
+     height: 150px;
 }
 
 .main_footer {
