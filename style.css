@@ -92,7 +92,6 @@ body {
 }
 
 .sidebar_1,.sidebar_2 {
-    background-color: #ABCFE7;
     width: 19%;
     
 
@@ -114,7 +113,7 @@ body {
 
 }
 
-.maincontent_background, .sidebar_1, .sidebar_2{
+.maincontent_background, .sidebar_background1, .sidebar_background2{
     background-position: center;
     background-size: cover;
      background-blend-mode: multiply;
@@ -140,16 +139,26 @@ body {
     height: 350px;
 }
 
-.sidebar_1{
-     background-image: url(./img/img-1.jpg);
-     height: 150px;
-
-}
 .sidebar_2{
      float: right;
-  background-image: url(./img/img-3.jpg);
      height: 150px;
 }
+
+.sidebar_1{
+   height: 150px; 
+}
+
+.sidebar_background1{
+background-image: url(./img/img-1.jpg);
+height: 150px;
+}
+
+
+.sidebar_background2{  
+  background-image: url(./img/img-3.jpg);
+  height: 150px;
+}
+
 
 .main_footer {
     margin-top: 0.5rem;
